@@ -1,0 +1,9 @@
+replicaCount: 2
+image:
+  repository: myapp
+  tag: "1"
+mysql:
+  pvcSize: 5Gi
+  replicas: 1
+monitoring:
+  metrics: 4
